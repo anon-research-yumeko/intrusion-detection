@@ -43,10 +43,6 @@ def resolve_data_dir(dataset: str, user_data_dir: str) -> str:
     return DATASET_DEFAULT_DIRS[dataset_key]
 
 
-# The dataset loaders below are intentionally direct translations of the
-# corresponding functions in the original `main.py`. They return a
-# `DataBundle` instance ready for training/evaluation.
-
 
 def _load_unsw_data(data_dir: str, cut_off: float, seed: int) -> DataBundle:
     merged_path = os.path.join(data_dir, "merged_df.parquet")
@@ -223,3 +219,4 @@ def load_and_sample_data(dataset: str, data_dir: str, cut_off: float, seed: int)
         raise FileNotFoundError(f"Data directory not found for dataset '{dataset_key}': {data_dir}")
 
     return _DATASET_LOADERS[dataset_key](data_dir, cut_off, seed)
+

@@ -22,13 +22,14 @@ py main.py --dataset unsw --cut_off_list 0.3 --epochs 30 --enable_chip
 
 See `requirements.txt` for a minimal set of packages required to run training/evaluation scripts.
 
-**Link to Datset**
+**Link to Dataset**
 
 NF-CSE-CIC-IDS2018-v3: https://staff.itee.uq.edu.au/marius/NIDS_datasets/
 
 CICIDS-2017: https://www.unb.ca/cic/datasets/ids-2017.html
 
 UNSW-NB15: https://research.unsw.edu.au/projects/unsw-nb15-dataset
+
 
 
 

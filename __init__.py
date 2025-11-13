@@ -1,8 +1,3 @@
-"""chipoccon package
-
-Split modules from original `main.py` for clarity and reuse.
-"""
-
 from .datasets import DataBundle, resolve_data_dir, load_and_sample_data
 from .models import OCConNet
 from .losses import OCConLossFn
@@ -29,3 +24,4 @@ __all__ = [
     "compute_metrics",
     "make_occon_grid",
 ]
+

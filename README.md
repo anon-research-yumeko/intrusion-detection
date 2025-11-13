@@ -30,6 +30,7 @@ CICIDS-2017: https://www.unb.ca/cic/datasets/ids-2017.html
 
 UNSW-NB15: https://research.unsw.edu.au/projects/unsw-nb15-dataset
 
+You can also download from our Google Drive: https://drive.google.com/drive/folders/1VqnE5Tgdi8Gc1MeWKaw2qUMmTZ1hvT6g?usp=drive_link
 
 
 

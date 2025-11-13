@@ -1,5 +1,5 @@
 # chipoccon
-Modules
+**Modules**
 - `chipoccon.datasets` - dataset loaders and `DataBundle` dataclass
 - `chipoccon.dataset_utils` - dataset and sampler helpers for contrastive training
 - `chipoccon.models` - `OCConNet` architecture
@@ -10,7 +10,7 @@ Modules
 - `chipoccon.utils` - helper utilities and metric computations
 - `chipoccon.evaluate` - high-level grid evaluation
 
-Usage
+**Usage**
 
 You can import the package from the repository root (same level as `main.py`):
 
@@ -18,16 +18,18 @@ You can import the package from the repository root (same level as `main.py`):
 py main.py --dataset unsw --cut_off_list 0.3 --epochs 30 --enable_chip
 ```
 
-Dependencies
+**Dependencies**
+
 See `requirements.txt` for a minimal set of packages required to run training/evaluation scripts.
 
-Link to Datset
+**Link to Datset**
 
 NF-CSE-CIC-IDS2018-v3: https://staff.itee.uq.edu.au/marius/NIDS_datasets/
 
 CICIDS-2017: https://www.unb.ca/cic/datasets/ids-2017.html
 
 UNSW-NB15: https://research.unsw.edu.au/projects/unsw-nb15-dataset
+
 
 
 

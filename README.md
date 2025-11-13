@@ -1,7 +1,4 @@
 # chipoccon
-
-This package contains a modular split of the `main.py` from the repository. It separates dataset loaders, model, loss, training and scoring utilities into independent modules so they can be published to GitHub and reused as a package.
-
 Modules
 - `chipoccon.datasets` - dataset loaders and `DataBundle` dataclass
 - `chipoccon.dataset_utils` - dataset and sampler helpers for supervised contrastive training
@@ -18,8 +15,9 @@ Usage
 You can import the package from the repository root (same level as `main.py`):
 
 ```python
-from chipoccon import train_occon_and_embed, evaluate_grid
+py main.py --dataset unsw --cut_off_list 0.3 --epochs 30 --enable_chip
 ```
 
 Dependencies
 See `requirements.txt` for a minimal set of packages required to run training/evaluation scripts.
+
